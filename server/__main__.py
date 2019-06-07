@@ -2,7 +2,9 @@ import yaml
 import socket
 from argparse import ArgumentParser
 import json
-import datetime
+
+from actions import resolve
+from protocol import validate_request,make_response
 
 parser = ArgumentParser()
 parser.add_argument(
@@ -12,7 +14,7 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-host = '0.0.0.0'
+host = 'localhost'
 port = 7777
 buffersize = 1024
 encoding = 'utf-8'
@@ -33,17 +35,25 @@ try:
 
     while True:
         client, address = sock.accept()
-        print(f'Client was detected {address}')
-        data = client.recv(buffersize)
-        print(data.decode(encoding))
-        dct = json.loads(data)
-        if dct['action']=='presence':
-            data = {"action": "probe",
-                     "time":  datetime.datetime.now().strftime('%Y-%m-%d_%H%M'),
-                     }
+        b_request = client.recv(buffersize)
+        request = json.loads(b_request.decode(encoding))
 
-        print(data)
-        client.send(json.dumps(data).encode())
+        if validate_request(request):
+            action_name = request.get('action')
+            controller = resolve(action_name)
+            if controller:
+                try:
+                    response = controller(request)
+                except Exception as err:
+                    print(err)
+                    response = make_response(request,500,'Internal server error')
+            else:
+                response = make_response(request, 404, 'Action nof found')
+
+        else:
+            response = make_response(request,400,'Wrong request')
+        s_response = json.dumps(response)
+        client.send(s_response.encode(encoding))
         client.close()
 except KeyboardInterrupt:
     pass

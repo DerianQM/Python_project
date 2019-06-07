@@ -4,7 +4,6 @@ from argparse import ArgumentParser
 import json
 import datetime
 
-
 parser = ArgumentParser()
 parser.add_argument(
     '-c', '--config', type=str,
@@ -30,18 +29,16 @@ try:
     sock = socket.socket()
     sock.connect((host, port))
     print('Client started')
-    dct = {
-        "action": "presence",
-        "time":'',
-        "type":"status",
-        "user":{
-                "account_name":  "C0deMaver1ck",
-                "status":"Yep, I am here!"
-        },}
+    action = input('Enter action: ')
+    data = input('Enter data: ')
+    request = {
+        'action':action,
+        'data': data,
+        'time': datetime.datetime.now().strftime('%Y-%m-%d_%H%M')
 
-    dct["time"] = datetime.datetime.now().strftime('%Y-%m-%d_%H%M')
-    data = json.dumps(dct)
-    sock.send(data.encode(encoding))
+    }
+    s_request = json.dumps(request)
+    sock.send(s_request.encode(encoding))
     response = sock.recv(buffersize)
     print(response.decode(encoding))
 
