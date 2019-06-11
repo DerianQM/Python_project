@@ -1,0 +1,4 @@
+2019-06-11 21:07:03,615 - INFO - Server was started with localhost : 7777
+2019-06-11 21:08:16,597 - ERROR - 404 - request:{request}
+2019-06-11 21:14:10,699 - INFO - Server was started with localhost : 7777
+2019-06-11 21:14:45,380 - ERROR - 404 - request:{'action': 'message', 'data': 'data', 'time': '2019-06-11_2114'}
