@@ -1,0 +1,4 @@
+2019-06-13 15:07:20,083 - INFO - C:/Users/DimaG/Desktop/Python_project/server/__main__.py -__main__ - Server was started with localhost : 7777
+2019-06-13 15:07:33,841 - ERROR - C:/Users/DimaG/Desktop/Python_project/server/__main__.py -__main__ - 404 - request:{'action': 'bugaga', 'data': 'test', 'time': '2019-06-13_1507'}
+2019-06-13 15:07:51,228 - INFO - C:/Users/DimaG/Desktop/Python_project/server/__main__.py -__main__ - Server was started with localhost : 7777
+2019-06-13 15:08:06,671 - ERROR - C:/Users/DimaG/Desktop/Python_project/server/__main__.py -__main__ - 404 - request:{'action': 'test', 'data': 'test', 'time': '2019-06-13_1508'}
