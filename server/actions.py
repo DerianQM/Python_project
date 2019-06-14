@@ -1,5 +1,7 @@
 from settings import INSTALLED_APPS
 from functools import reduce
+from decorators import logs
+
 
 def get_server_actions():
     modules = reduce(
@@ -17,6 +19,8 @@ def get_server_actions():
         actions,
         []
     )
+
+@logs
 def resolve(action_name,actions=None):
     actions_list = actions or get_server_actions()
     actions_mapping = {

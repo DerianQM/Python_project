@@ -3,7 +3,9 @@ import socket
 from argparse import ArgumentParser
 import json
 import datetime
-
+import hashlib
+from datetime import datetime
+import zlib
 parser = ArgumentParser()
 parser.add_argument(
     '-c', '--config', type=str,
@@ -31,16 +33,24 @@ try:
     print('Client started')
     action = input('Enter action: ')
     data = input('Enter data: ')
+    hash_obl = hashlib.sha3_256()
+    hash_obl.update(
+        (str(datetime.now().timestamp()).encode(encoding))
+    )
     request = {
         'action':action,
         'data': data,
-        'time': datetime.datetime.now().strftime('%Y-%m-%d_%H%M')
+        'time': datetime.now().timestamp(),
+        'user': hash_obl.hexdigest()
 
     }
     s_request = json.dumps(request)
-    sock.send(s_request.encode(encoding))
+    b_request = zlib.compress(s_request.encode(encoding))
+    sock.send(b_request)
     response = sock.recv(buffersize)
-    print(response.decode(encoding))
+    zobj = zlib.decompressobj()
+    b_response = zobj.decompress(response)
+    print(b_response.decode(encoding))
 
 except KeyboardInterrupt:
     pass
