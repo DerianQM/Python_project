@@ -1,0 +1,2 @@
+2019-06-14 08:57:21,906 - INFO - C:/Users/DimaG/Desktop/Python_project/server/__main__.py -__main__ - Server was started with localhost : 7777
+2019-06-14 08:57:40,067 - ERROR - C:/Users/DimaG/Desktop/Python_project/server/__main__.py -__main__ - 404 - request:{'action': 'message', 'data': 'test', 'time': '2019-06-14_0857'}
