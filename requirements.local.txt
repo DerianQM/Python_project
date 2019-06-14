@@ -1,0 +1,4 @@
+pylint
+autopep8
+docker-compose
+fabric3
