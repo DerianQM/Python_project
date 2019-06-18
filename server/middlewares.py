@@ -1,5 +1,5 @@
 import zlib
-from decorators import logs
+
 
 
 def compression_middleware(func):

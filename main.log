@@ -1,0 +1,18 @@
+2019-06-18 22:13:29,463 - INFO - Client with address ('127.0.0.1', 50656) was detected.
+2019-06-18 22:13:41,478 - INFO - Client with address ('127.0.0.1', 50658) was detected.
+2019-06-18 22:17:42,903 - INFO - Client with address ('127.0.0.1', 50741) was detected.
+2019-06-18 22:17:58,368 - INFO - Client with address ('127.0.0.1', 50742) was detected.
+2019-06-18 22:23:00,656 - INFO - Client with address ('127.0.0.1', 50750) was detected.
+2019-06-18 22:23:16,997 - INFO - Client with address ('127.0.0.1', 50751) was detected.
+2019-06-18 22:29:39,572 - INFO - Client with address ('127.0.0.1', 50831) was detected.
+2019-06-18 22:29:59,795 - INFO - Client with address ('127.0.0.1', 50833) was detected.
+2019-06-18 22:31:12,902 - INFO - Client with address ('127.0.0.1', 50839) was detected.
+2019-06-18 22:31:12,902 - INFO - Время вызова - "2019-06-18_2231" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1560886205.783163, "user": "85b9996f142c158ebcd4a17d73a3a19bc30c1a208adbf99fb23acd70e652d8ef"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000260C07F0620>}
+2019-06-18 22:31:12,903 - INFO - Время вызова - "2019-06-18_2231" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000260C07F0510>}
+2019-06-18 22:31:12,911 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1560886205.783163, 'user': '85b9996f142c158ebcd4a17d73a3a19bc30c1a208adbf99fb23acd70e652d8ef'}
+2019-06-18 22:40:58,093 - INFO - Client with address ('127.0.0.1', 50930) was detected.
+2019-06-18 22:41:06,323 - INFO - Client with address ('127.0.0.1', 50931) was detected.
+2019-06-18 22:41:32,252 - INFO - Client with address ('127.0.0.1', 50950) was detected.
+2019-06-18 22:41:32,252 - INFO - Время вызова - "2019-06-18_2241" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1560886872.154506, "user": "b378e7b23de8a3292a08ddfd2fd683736a3dd41ad437c2b43b7ccd2bfb6b2c8e"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000001E7A8074620>}
+2019-06-18 22:41:32,252 - INFO - Время вызова - "2019-06-18_2241" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000001E7A8074510>}
+2019-06-18 22:41:32,257 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1560886872.154506, 'user': 'b378e7b23de8a3292a08ddfd2fd683736a3dd41ad437c2b43b7ccd2bfb6b2c8e'}
