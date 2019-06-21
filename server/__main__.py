@@ -4,7 +4,7 @@ import socket
 import select
 import logging
 from argparse import ArgumentParser
-
+import threading
 from actions import resolve
 from handlers import handle_default_request
 from protocol import (
@@ -21,7 +21,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 host = 'localhost'
-port = 7777
+port = 8000
 buffersize = 1024
 encoding = 'utf-8'
 
@@ -54,12 +54,18 @@ logging.basicConfig(
 requests = []
 connections = []
 
+def read(client, requests, buffersize):
+    b_request = client.recv(buffersize)
+    requests.append(b_request)
+
+def write (client, response):
+    client.send(response)
+
 try:
     sock = socket.socket()
-
+    sock.setblocking(False)
     sock.bind((host, port))
-    sock.setblocking(True)
-    sock.listen(5)
+    sock.listen(10)
     print(f'Server was started with {host}:{port}')
 
     while True:
@@ -75,14 +81,15 @@ try:
         )
 
         for r_client in rlist:
-            b_request = r_client.recv(buffersize)
-            requests.append(b_request)
-
+            rthread = threading.Thread(target=read, args=(r_client,requests,buffersize))
+            rthread.start()
         if requests:
             b_request = requests.pop()
             b_response = handle_default_request(b_request)
 
             for w_client in wlist:
-                w_client.send(b_response)
+                wthread = threading.Thread(target=read, args=(w_client,b_response,buffersize))
+                wthread.start()
+
 except KeyboardInterrupt:
     pass

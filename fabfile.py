@@ -9,3 +9,6 @@ def client(mode='w'):
 
 def test():
     local('pytest --cov-report term-missing --cov server')
+
+def fill():
+    local('lsof -t -i tcp^8000 | xargs kill')
