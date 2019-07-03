@@ -1,0 +1,141 @@
+2019-06-18 22:13:29,463 - INFO - Client with address ('127.0.0.1', 50656) was detected.
+2019-06-18 22:13:41,478 - INFO - Client with address ('127.0.0.1', 50658) was detected.
+2019-06-18 22:17:42,903 - INFO - Client with address ('127.0.0.1', 50741) was detected.
+2019-06-18 22:17:58,368 - INFO - Client with address ('127.0.0.1', 50742) was detected.
+2019-06-18 22:23:00,656 - INFO - Client with address ('127.0.0.1', 50750) was detected.
+2019-06-18 22:23:16,997 - INFO - Client with address ('127.0.0.1', 50751) was detected.
+2019-06-18 22:29:39,572 - INFO - Client with address ('127.0.0.1', 50831) was detected.
+2019-06-18 22:29:59,795 - INFO - Client with address ('127.0.0.1', 50833) was detected.
+2019-06-18 22:31:12,902 - INFO - Client with address ('127.0.0.1', 50839) was detected.
+2019-06-18 22:31:12,902 - INFO - Время вызова - "2019-06-18_2231" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1560886205.783163, "user": "85b9996f142c158ebcd4a17d73a3a19bc30c1a208adbf99fb23acd70e652d8ef"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000260C07F0620>}
+2019-06-18 22:31:12,903 - INFO - Время вызова - "2019-06-18_2231" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000260C07F0510>}
+2019-06-18 22:31:12,911 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1560886205.783163, 'user': '85b9996f142c158ebcd4a17d73a3a19bc30c1a208adbf99fb23acd70e652d8ef'}
+2019-06-18 22:40:58,093 - INFO - Client with address ('127.0.0.1', 50930) was detected.
+2019-06-18 22:41:06,323 - INFO - Client with address ('127.0.0.1', 50931) was detected.
+2019-06-18 22:41:32,252 - INFO - Client with address ('127.0.0.1', 50950) was detected.
+2019-06-18 22:41:32,252 - INFO - Время вызова - "2019-06-18_2241" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1560886872.154506, "user": "b378e7b23de8a3292a08ddfd2fd683736a3dd41ad437c2b43b7ccd2bfb6b2c8e"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000001E7A8074620>}
+2019-06-18 22:41:32,252 - INFO - Время вызова - "2019-06-18_2241" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000001E7A8074510>}
+2019-06-18 22:41:32,257 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1560886872.154506, 'user': 'b378e7b23de8a3292a08ddfd2fd683736a3dd41ad437c2b43b7ccd2bfb6b2c8e'}
+2019-06-18 23:06:22,484 - INFO - Client with address ('127.0.0.1', 50234) was detected.
+2019-06-18 23:06:44,926 - INFO - Client with address ('127.0.0.1', 50269) was detected.
+2019-06-18 23:06:44,927 - INFO - Время вызова - "2019-06-18_2306" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "test", "data": "echo", "time": 1560888389.262104, "user": "ff88800de6596f705307778546b67c0f94b9b11061295aea8a2a989d0624565c"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x0000013D12F04620>}
+2019-06-18 23:06:44,927 - INFO - Время вызова - "2019-06-18_2306" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'test', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x0000013D12F04510>}
+2019-06-18 23:06:44,933 - ERROR - 404 - request:{'action': 'test', 'data': 'echo', 'time': 1560888389.262104, 'user': 'ff88800de6596f705307778546b67c0f94b9b11061295aea8a2a989d0624565c'}
+2019-06-19 07:38:13,852 - INFO - Client with address ('127.0.0.1', 51821) was detected.
+2019-06-19 07:38:24,469 - INFO - Client with address ('127.0.0.1', 51822) was detected.
+2019-06-19 07:39:09,876 - INFO - Client with address ('127.0.0.1', 51825) was detected.
+2019-06-19 07:39:09,876 - INFO - Время вызова - "2019-06-19_0739" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1560919112.584943, "user": "c9cd9d6b4797a16c771116ce0fe6f2993534867290607e4d86186dc23e67a576"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000002AA54424620>}
+2019-06-19 07:39:09,877 - INFO - Время вызова - "2019-06-19_0739" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000002AA54424510>}
+2019-06-19 07:39:09,881 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1560919112.584943, 'user': 'c9cd9d6b4797a16c771116ce0fe6f2993534867290607e4d86186dc23e67a576'}
+2019-06-21 18:46:25,233 - INFO - Client with address ('127.0.0.1', 64003) was detected.
+2019-06-21 18:46:35,769 - INFO - Client with address ('127.0.0.1', 64004) was detected.
+2019-06-21 18:47:03,425 - INFO - Client with address ('127.0.0.1', 64007) was detected.
+2019-06-21 18:47:03,425 - INFO - Время вызова - "2019-06-21_1847" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1561132000.721343, "user": "88e02eb5aa18abac6042c617856d72574650de95812e1ff7ae7a2518323b38ea"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x0000018E8EE24620>}
+2019-06-21 18:47:03,426 - INFO - Время вызова - "2019-06-21_1847" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x0000018E8EE24510>}
+2019-06-21 18:47:03,432 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1561132000.721343, 'user': '88e02eb5aa18abac6042c617856d72574650de95812e1ff7ae7a2518323b38ea'}
+2019-06-21 21:20:39,599 - INFO - Client with address ('127.0.0.1', 64995) was detected.
+2019-06-21 21:20:53,706 - INFO - Client with address ('127.0.0.1', 64997) was detected.
+2019-06-21 21:33:15,505 - INFO - Client with address ('127.0.0.1', 65048) was detected.
+2019-06-21 21:33:31,969 - INFO - Client with address ('127.0.0.1', 65049) was detected.
+2019-06-21 21:33:44,586 - INFO - Client with address ('127.0.0.1', 65050) was detected.
+2019-06-21 23:48:59,111 - INFO - Client with address ('127.0.0.1', 50419) was detected.
+2019-06-21 23:49:15,755 - INFO - Client with address ('127.0.0.1', 50422) was detected.
+2019-06-21 23:49:47,018 - INFO - Client with address ('127.0.0.1', 50425) was detected.
+2019-06-21 23:49:47,018 - INFO - Время вызова - "2019-06-21_2349" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1561150143.43122, "user": "1a50fde0afab2fe5a9f0c09b5836c8e41465f33ec1a3b891902081c7e71c2571"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000259AE86F620>}
+2019-06-21 23:49:47,019 - INFO - Время вызова - "2019-06-21_2349" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000259AE86F510>}
+2019-06-21 23:49:47,023 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1561150143.43122, 'user': '1a50fde0afab2fe5a9f0c09b5836c8e41465f33ec1a3b891902081c7e71c2571'}
+2019-06-21 23:50:12,609 - INFO - Client with address ('127.0.0.1', 50428) was detected.
+2019-06-21 23:50:12,609 - INFO - Время вызова - "2019-06-21_2350" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1561150164.985227, "user": "f650596dd1046d944a8100a44ca52c934930a3bf873f17e1a1116cdf58169fef"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000259AE86F620>}
+2019-06-21 23:50:12,610 - INFO - Время вызова - "2019-06-21_2350" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000259AE86F510>}
+2019-06-21 23:50:12,610 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1561150164.985227, 'user': 'f650596dd1046d944a8100a44ca52c934930a3bf873f17e1a1116cdf58169fef'}
+2019-06-21 23:50:27,785 - INFO - Client with address ('127.0.0.1', 50429) was detected.
+2019-06-21 23:50:27,786 - INFO - Время вызова - "2019-06-21_2350" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1561150203.792419, "user": "df0108cfdb66ae703405f3474c8d875fdfcfca7c9b6923a1a30c8ba6f8360200"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000259AE86F620>}
+2019-06-21 23:50:27,786 - INFO - Время вызова - "2019-06-21_2350" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000259AE86F510>}
+2019-06-21 23:50:27,786 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1561150203.792419, 'user': 'df0108cfdb66ae703405f3474c8d875fdfcfca7c9b6923a1a30c8ba6f8360200'}
+2019-06-21 23:54:01,676 - INFO - Client with address ('127.0.0.1', 50447) was detected.
+2019-06-21 23:54:20,727 - INFO - Client with address ('127.0.0.1', 50450) was detected.
+2019-06-21 23:54:30,025 - INFO - Client with address ('127.0.0.1', 50451) was detected.
+2019-06-21 23:54:30,025 - INFO - Время вызова - "2019-06-21_2354" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1561150446.461346, "user": "6db3cdade118ad3324192a08898c0feebb2b4737a7b8d33fb2ece4d218640779"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000001F448CC3620>}
+2019-06-21 23:54:30,025 - INFO - Время вызова - "2019-06-21_2354" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000001F448CC3510>}
+2019-06-21 23:54:30,029 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1561150446.461346, 'user': '6db3cdade118ad3324192a08898c0feebb2b4737a7b8d33fb2ece4d218640779'}
+2019-06-22 00:01:32,948 - INFO - Client with address ('127.0.0.1', 50591) was detected.
+2019-06-22 00:01:41,086 - INFO - Client with address ('127.0.0.1', 50592) was detected.
+2019-06-22 00:01:54,037 - INFO - Client with address ('127.0.0.1', 50594) was detected.
+2019-06-22 00:02:58,904 - INFO - Client with address ('127.0.0.1', 50598) was detected.
+2019-06-22 00:24:15,237 - INFO - Client with address ('127.0.0.1', 51122) was detected.
+2019-07-02 07:10:17,174 - INFO - Client with address ('127.0.0.1', 57620) was detected.
+2019-07-02 07:10:58,259 - INFO - Client with address ('127.0.0.1', 57625) was detected.
+2019-07-02 07:11:54,359 - INFO - Client with address ('127.0.0.1', 57637) was detected.
+2019-07-02 07:12:19,488 - INFO - Client with address ('127.0.0.1', 57639) was detected.
+2019-07-02 07:14:36,083 - INFO - Client with address ('127.0.0.1', 57661) was detected.
+2019-07-02 07:21:19,821 - INFO - Client with address ('127.0.0.1', 57753) was detected.
+2019-07-02 07:23:24,326 - INFO - Client with address ('127.0.0.1', 57772) was detected.
+2019-07-02 07:25:08,425 - INFO - Client with address ('127.0.0.1', 57793) was detected.
+2019-07-02 07:26:12,311 - INFO - Client with address ('127.0.0.1', 57798) was detected.
+2019-07-03 21:29:25,526 - INFO - Client with address ('127.0.0.1', 52401) was detected.
+2019-07-03 21:30:55,191 - INFO - Client with address ('127.0.0.1', 52488) was detected.
+2019-07-03 21:33:53,464 - INFO - Client with address ('127.0.0.1', 52639) was detected.
+2019-07-03 21:33:57,564 - INFO - Время вызова - "2019-07-03_2133" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562178837.563058, "user": "a96f4b4b90f194dcaa0701fea9836981786623a6a2478e7c3e9b94c23e9c1a3f"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000001FC8C06F620>}
+2019-07-03 21:33:57,565 - INFO - Время вызова - "2019-07-03_2133" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000001FC8C06F510>}
+2019-07-03 21:33:57,570 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562178837.563058, 'user': 'a96f4b4b90f194dcaa0701fea9836981786623a6a2478e7c3e9b94c23e9c1a3f'}
+2019-07-03 21:39:04,839 - INFO - Client with address ('127.0.0.1', 52751) was detected.
+2019-07-03 21:39:08,753 - INFO - Время вызова - "2019-07-03_2139" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562179148.752103, "user": "13600ad2ed5b39ed46d1a4917f992b5cccab5234f7f3d32bcf545a62fd484bdc"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000002264A34F620>}
+2019-07-03 21:39:08,754 - INFO - Время вызова - "2019-07-03_2139" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000002264A34F510>}
+2019-07-03 21:39:08,757 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562179148.752103, 'user': '13600ad2ed5b39ed46d1a4917f992b5cccab5234f7f3d32bcf545a62fd484bdc'}
+2019-07-03 21:41:29,942 - INFO - Client with address ('127.0.0.1', 52815) was detected.
+2019-07-03 21:41:33,771 - INFO - Время вызова - "2019-07-03_2141" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562179293.770493, "user": "151793e2170766b680be5e19c27aa6729bff8d2f2cfc61accedc13c66e275dee"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x0000024A1755F620>}
+2019-07-03 21:41:33,771 - INFO - Время вызова - "2019-07-03_2141" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x0000024A1755F510>}
+2019-07-03 21:41:33,774 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562179293.770493, 'user': '151793e2170766b680be5e19c27aa6729bff8d2f2cfc61accedc13c66e275dee'}
+2019-07-03 21:48:03,065 - INFO - Client with address ('127.0.0.1', 53160) was detected.
+2019-07-03 21:48:16,286 - INFO - Client with address ('127.0.0.1', 53161) was detected.
+2019-07-03 21:48:31,224 - INFO - Время вызова - "2019-07-03_2148" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562179711.223724, "user": "b229c7760a121c54c8b249ecde5fb7e29512026699d001e4094a5ce980b89e8d"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000190672DF620>}
+2019-07-03 21:48:31,224 - INFO - Время вызова - "2019-07-03_2148" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000190672DF510>}
+2019-07-03 21:48:31,227 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562179711.223724, 'user': 'b229c7760a121c54c8b249ecde5fb7e29512026699d001e4094a5ce980b89e8d'}
+2019-07-03 21:48:43,385 - INFO - Время вызова - "2019-07-03_2148" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562179723.384725, "user": "5d97aff71b5aea7102577121d2f3b4999b5068ef6fd5db411fd5272ae73b50ce"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000190672DF620>}
+2019-07-03 21:48:43,385 - INFO - Время вызова - "2019-07-03_2148" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000190672DF510>}
+2019-07-03 21:48:43,385 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562179723.384725, 'user': '5d97aff71b5aea7102577121d2f3b4999b5068ef6fd5db411fd5272ae73b50ce'}
+2019-07-03 21:51:43,491 - INFO - Client with address ('127.0.0.1', 53206) was detected.
+2019-07-03 21:51:53,493 - INFO - Время вызова - "2019-07-03_2151" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562179907.430573, "user": "35452e15e56d16510fe50a58f2452b5de1580562286bf677ba6947b364478fd2"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000001E570F0F620>}
+2019-07-03 21:51:53,493 - INFO - Время вызова - "2019-07-03_2151" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000001E570F0F510>}
+2019-07-03 21:51:53,497 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562179907.430573, 'user': '35452e15e56d16510fe50a58f2452b5de1580562286bf677ba6947b364478fd2'}
+2019-07-03 21:52:14,623 - INFO - Client with address ('127.0.0.1', 53212) was detected.
+2019-07-03 21:52:24,624 - INFO - Время вызова - "2019-07-03_2152" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562179939.521281, "user": "5a1b2e0943c3f8028082b9a2794750cf76965da5ee7a1f2c49e4753dd383e474"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000001E570F0F620>}
+2019-07-03 21:52:24,627 - INFO - Время вызова - "2019-07-03_2152" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000001E570F0F510>}
+2019-07-03 21:52:24,629 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562179939.521281, 'user': '5a1b2e0943c3f8028082b9a2794750cf76965da5ee7a1f2c49e4753dd383e474'}
+2019-07-03 21:52:38,706 - INFO - Client with address ('127.0.0.1', 53215) was detected.
+2019-07-03 21:58:06,214 - INFO - Client with address ('127.0.0.1', 53325) was detected.
+2019-07-03 21:58:18,191 - INFO - Client with address ('127.0.0.1', 53326) was detected.
+2019-07-03 21:58:33,195 - INFO - Время вызова - "2019-07-03_2158" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562180303.545305, "user": "de8448ae19c93bc75783ce26fe199ca5143d7d84ab5e497c8b330cded3030c66"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x0000024C217BF620>}
+2019-07-03 21:58:33,198 - INFO - Время вызова - "2019-07-03_2158" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x0000024C217BF510>}
+2019-07-03 21:58:33,216 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562180303.545305, 'user': 'de8448ae19c93bc75783ce26fe199ca5143d7d84ab5e497c8b330cded3030c66'}
+2019-07-03 21:59:03,223 - INFO - Время вызова - "2019-07-03_2159" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562180337.444345, "user": "7cdecb4a29ee4812902b247c84ef256a7be92fae1861c96f95d40d174334060a"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x0000024C217BF620>}
+2019-07-03 21:59:03,226 - INFO - Время вызова - "2019-07-03_2159" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x0000024C217BF510>}
+2019-07-03 21:59:03,230 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562180337.444345, 'user': '7cdecb4a29ee4812902b247c84ef256a7be92fae1861c96f95d40d174334060a'}
+2019-07-03 21:59:27,111 - INFO - Client with address ('127.0.0.1', 53335) was detected.
+2019-07-03 21:59:40,437 - INFO - Client with address ('127.0.0.1', 53336) was detected.
+2019-07-03 21:59:50,438 - INFO - Время вызова - "2019-07-03_2159" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562180383.921888, "user": "f3c96ccbefcf37a7f5af6fddccf481b21c8611ec211e0015ae15bc4533c1e4a3"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000001D88317F620>}
+2019-07-03 21:59:50,438 - INFO - Время вызова - "2019-07-03_2159" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000001D88317F510>}
+2019-07-03 21:59:50,442 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562180383.921888, 'user': 'f3c96ccbefcf37a7f5af6fddccf481b21c8611ec211e0015ae15bc4533c1e4a3'}
+2019-07-03 22:02:12,475 - INFO - Client with address ('127.0.0.1', 53360) was detected.
+2019-07-03 22:02:19,245 - INFO - Client with address ('127.0.0.1', 53361) was detected.
+2019-07-03 22:02:29,249 - INFO - Время вызова - "2019-07-03_2202" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562180542.74936, "user": "a698f70c8b41d7fe79512e29d37eaf0f9b38ab0e21b5118786b5918a85997f45"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000286A701F620>}
+2019-07-03 22:02:29,249 - INFO - Время вызова - "2019-07-03_2202" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000286A701F510>}
+2019-07-03 22:02:29,252 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562180542.74936, 'user': 'a698f70c8b41d7fe79512e29d37eaf0f9b38ab0e21b5118786b5918a85997f45'}
+2019-07-03 22:03:03,623 - INFO - Client with address ('127.0.0.1', 53366) was detected.
+2019-07-03 22:03:10,339 - INFO - Client with address ('127.0.0.1', 53367) was detected.
+2019-07-03 22:03:20,343 - INFO - Время вызова - "2019-07-03_2203" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562180594.681399, "user": "7cefc5307a90ae3bcb2226513e035bbfd38780ca97d08c861a02c1718b82995d"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000214051FF620>}
+2019-07-03 22:03:20,347 - INFO - Время вызова - "2019-07-03_2203" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000214051FF510>}
+2019-07-03 22:03:20,366 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562180594.681399, 'user': '7cefc5307a90ae3bcb2226513e035bbfd38780ca97d08c861a02c1718b82995d'}
+2019-07-03 22:03:40,371 - INFO - Время вызова - "2019-07-03_2203" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562180613.561368, "user": "6010573204fef8ed280ff9575f309ec7024624e463f6dc4bf375ded48e1a56a6"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000214051FF620>}
+2019-07-03 22:03:40,373 - INFO - Время вызова - "2019-07-03_2203" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000214051FF510>}
+2019-07-03 22:03:40,375 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562180613.561368, 'user': '6010573204fef8ed280ff9575f309ec7024624e463f6dc4bf375ded48e1a56a6'}
+2019-07-03 22:04:04,691 - INFO - Client with address ('127.0.0.1', 53376) was detected.
+2019-07-03 22:04:29,695 - INFO - Время вызова - "2019-07-03_2204" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562180661.443845, "user": "e2c5f07cdf9c0f22db1cdea9901479f8e97cf5fd32b7d6fb582c2494eb18502d"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x00000214051FF620>}
+2019-07-03 22:04:29,697 - INFO - Время вызова - "2019-07-03_2204" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x00000214051FF510>}
+2019-07-03 22:04:29,700 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562180661.443845, 'user': 'e2c5f07cdf9c0f22db1cdea9901479f8e97cf5fd32b7d6fb582c2494eb18502d'}
+2019-07-03 22:05:24,671 - INFO - Client with address ('127.0.0.1', 53393) was detected.
+2019-07-03 22:05:32,444 - INFO - Client with address ('127.0.0.1', 53394) was detected.
+2019-07-03 22:05:40,249 - INFO - Client with address ('127.0.0.1', 53396) was detected.
+2019-07-03 22:05:55,251 - INFO - Время вызова - "2019-07-03_2205" Модуль вызова - "handlers" - Bмя вызванной функции - "handle_default_request " ее параметры - {'request': b'{"action": "echo", "data": "test", "time": 1562180746.885378, "user": "c577bf939b72d42eb8ea6b27f1400ae72ff21e263373322efc1999d1246819f8"}', 'argv': (), 'kwargv': {}, 'func': <function handle_default_request at 0x000001E95605F620>}
+2019-07-03 22:05:55,252 - INFO - Время вызова - "2019-07-03_2205" Модуль вызова - "actions" - Bмя вызванной функции - "resolve " ее параметры - {'request': 'echo', 'argv': (), 'kwargv': {}, 'func': <function resolve at 0x000001E95605F510>}
+2019-07-03 22:05:55,262 - DEBUG - get_echo : {'action': 'echo', 'data': 'test', 'time': 1562180746.885378, 'user': 'c577bf939b72d42eb8ea6b27f1400ae72ff21e263373322efc1999d1246819f8'}
