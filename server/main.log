@@ -28,3 +28,4 @@
 2019-06-14 23:53:03,857 - ERROR - 404 - request:{'action': 'fail', 'data': 'some data', 'time': 1560545583.853209, 'user': 'e818dc9f714d6226721de4c9712663f962ff4372fa81a6bbeda49e585e68a8b3'}
 2019-06-18 19:52:29,758 - INFO - Client with address ('127.0.0.1', 57394) was detected.
 2019-06-18 22:08:06,655 - INFO - Client with address ('127.0.0.1', 50642) was detected.
+2019-06-22 00:22:15,458 - INFO - goodbye ('127.0.0.1', 51002)

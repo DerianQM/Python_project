@@ -63,9 +63,11 @@ def write (client, response):
 
 try:
     sock = socket.socket()
-    sock.setblocking(False)
+
+    #sock.setblocking(False)
     sock.bind((host, port))
-    sock.listen(10)
+    sock.settimeout(5)
+    sock.listen(20)
     print(f'Server was started with {host}:{port}')
 
     while True:
@@ -75,21 +77,22 @@ try:
             connections.append(client)
         except:
             pass
+        if connections:
+            rlist, wlist, xlist = select.select(
+                connections, connections, connections, 0
+                )
 
-        rlist, wlist, xlist = select.select(
-            connections, connections, connections, 0
-        )
+            for r_client in rlist:
+                rthread = threading.Thread(target=read, args=(r_client,requests,buffersize))
+                rthread.start()
+            if requests:
+                b_request = requests.pop()
+                b_response = handle_default_request(b_request)
 
-        for r_client in rlist:
-            rthread = threading.Thread(target=read, args=(r_client,requests,buffersize))
-            rthread.start()
-        if requests:
-            b_request = requests.pop()
-            b_response = handle_default_request(b_request)
-
-            for w_client in wlist:
-                wthread = threading.Thread(target=read, args=(w_client,b_response,buffersize))
-                wthread.start()
+                for w_client in wlist:
+                    wthread = threading.Thread(target=write, args=(w_client,b_response))
+                    wthread.start()
 
 except KeyboardInterrupt:
     pass
+
